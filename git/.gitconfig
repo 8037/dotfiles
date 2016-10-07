@@ -1,0 +1,9 @@
+[user]
+	name = 8037
+	email = 8037@airmail.cc
+[core]
+	editor = vim -wl1
+[color]
+	ui = true
+[alias]
+	flg = log --graph --oneline --all --decorate --pretty='%C(bold)%ad%C(reset) %C(yellow)%h%C(reset) %an %C(blue)%s' --date=format:'%d/%m/%y'

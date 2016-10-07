@@ -1,0 +1,103 @@
+! -------------------------
+! urxvt configuration files
+! -------------------------
+
+! fonts
+
+URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=11,xft:tewi:pixelsize=11
+URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=11, xft:tewi:pixelsize=11
+!URxvt.font: xft:Source Code Pro Medium:size=8,xft:Kochi Gothic:size=8
+!URxvt.font: xft:Termsyn:pixelsize=14,xft:Kochi Gothic:pixelsize=14
+
+!urxvt*font: xft:Termsyn:pixelsize=14,\
+!            xft:Kochi Gothic:antialias=false
+
+
+! useable fonts
+! Noto Sans CJK JP
+
+!Xft.dpi:        96:unscaled
+!Xft.antialias:  true
+!Xft.rgba:       rgb
+!Xft.hinting:    true
+!Xft.hintstyle:  hintmedium
+!Xft.lcdfilter:  lcddefault
+
+! interface
+
+! -2
+URxvt.letterSpace: 0
+!URxvt.lineSpace: 6
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+
+! colors
+! special
+*.foreground:   #d2d0d4
+*.background:   #222024
+*.cursorColor:  #d2d0d4
+
+! black
+*.color0:       #222024
+*.color8:       #424044
+
+! red
+*.color1:       #525054
+*.color9:       #f6d793   
+
+! green
+*.color2:       #626064
+*.color10:      #f6c373     
+
+! yellow
+*.color3:       #727074
+*.color11:      #d69d62  
+
+! blue
+*.color4:       #828084
+*.color12:      #ff6da3  
+
+! magenta
+*.color5:       #929094
+*.color13:      #c72d66    
+
+! cyan
+*.color6:       #a2a0a4
+*.color14:      #85123c  
+
+! white
+*.color7:       #bfbdc2
+*.color15:      #e9e7eb
+
+
+! good colors for later use
+! #cc6666 #ff6da3 #bb425f
+! #f6d793 #f6c373 #d69d62
+! #8b6981 #6f4e69 #5f3357
+
+! ------------------
+! rofi configuration
+! ------------------
+
+rofi.color-enabled: true
+rofi.color-window: #222024, #e9e7eb, #525054
+rofi.color-normal: #222024, #bfbdc2, #222024, #e9e7eb, #222024
+rofi.color-active: #222024, #ff6da3, #222024, #e9e7eb, #bb5077
+rofi.color-urgent: #222024, #ea6ac8, #222024, #e9e7eb, #b35199
+
+
+   ! rofi.padding: 1
+   ! rofi.lines: 1
+   ! rofi.borderwidth: 1
+   ! rofi.opacity: 100
+   ! rofi.location: 6
+   ! rofi.yoffset: 0
+   ! rofi.xoffset: 0
+   ! rofi.width: 30
+   ! rofi.fixed_num_lines: 0
+   ! rofi.hmode: false
+   ! rofi.terminal: urxvt
+   ! rofi.ssh-set-title: false
