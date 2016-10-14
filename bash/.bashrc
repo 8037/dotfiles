@@ -11,7 +11,7 @@ PS1='[\u@\h \W]\$ '
 export EDITOR="vim"
 export TERMINAL="urxvt"
 export RANGER_LOAD_DEFAULT_RC=FALSE
-
+export PATH="$PATH:~/bin"
 
 # reference
 #if [ -n "$SSH_CONNECTION" ]; then
