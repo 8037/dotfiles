@@ -16,6 +16,8 @@ set softtabstop=4
 set shiftwidth=4
 set noexpandtab
 set cursorline
+set list listchars=tab:»-,trail:·,extends:»,precedes:«
+
 
 
 " syntax highlighting
