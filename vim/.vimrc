@@ -34,8 +34,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " lightline
 Plugin 'itchyny/lightline.vim'
-" vim-fugitive
-Plugin 'tpope/vim-fugitive'
 " gruvbox colorscheme
 Plugin 'morhetz/gruvbox'
 
