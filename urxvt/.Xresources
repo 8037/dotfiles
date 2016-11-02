@@ -5,17 +5,13 @@
 ! fonts
 
 
-!URxvt.font: xft:Terminus:pixelsize=10, xft:WenQuanYi Bitmap Song:pixelsize=11,xft:tewi:pixelsize=11
-!URxvt.boldFont: xft:Terminus:pixelsize=10, xft: WenQuanYi Bitmap Song:pixelsize=11, xft:tewi:pixelsize=11
+!URxvt.font: xft:Terminus:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=11
+!URxvt.boldFont: xft:Terminus:pixelsize=14, xft: WenQuanYi Bitmap Song:pixelsize=11
 
-URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=11,xft:tewi:pixelsize=11
-URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=11, xft:tewi:pixelsize=11
-!URxvt.font: xft:Source Code Pro Medium:size=8,xft:Kochi Gothic:size=8
-!URxvt.font: xft:Termsyn:pixelsize=14,xft:Kochi Gothic:pixelsize=14
+URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=11
+URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=11
 
-!urxvt*font: xft:Termsyn:pixelsize=14,\
-!            xft:Kochi Gothic:antialias=false
-
+!URxvt.font: xft:Source Code Pro Medium:size=10,xft:Kochi Gothic:size=12
 
 ! useable fonts
 ! Noto Sans CJK JP
@@ -29,7 +25,6 @@ URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=1
 
 ! interface
 
-! -2
 URxvt.letterSpace: 0
 !URxvt.lineSpace: 6
 URxvt.scrollBar: false
