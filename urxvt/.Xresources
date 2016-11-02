@@ -4,6 +4,10 @@
 
 ! fonts
 
+
+!URxvt.font: xft:Terminus:pixelsize=10, xft:WenQuanYi Bitmap Song:pixelsize=11,xft:tewi:pixelsize=11
+!URxvt.boldFont: xft:Terminus:pixelsize=10, xft: WenQuanYi Bitmap Song:pixelsize=11, xft:tewi:pixelsize=11
+
 URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=11,xft:tewi:pixelsize=11
 URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=11, xft:tewi:pixelsize=11
 !URxvt.font: xft:Source Code Pro Medium:size=8,xft:Kochi Gothic:size=8
