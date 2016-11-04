@@ -63,7 +63,7 @@ setxkbmap -model abnt2 -layout br -variant abnt2
 nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
 
 # set wallpaper
-feh --bg-fill ~/pics/wallpaper/mami/mamiwp_2.png
+feh --bg-fill ~/pics/wallpaper/mami/mamiwp_4.png
 #feh --bg-fill --randomize ~/pics/wp/.inuse/* &
 
 # start i3
