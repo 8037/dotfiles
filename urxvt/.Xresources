@@ -5,16 +5,24 @@
 ! fonts
 
 
-!URxvt.font: xft:Terminus:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=11
-!URxvt.boldFont: xft:Terminus:pixelsize=14, xft: WenQuanYi Bitmap Song:pixelsize=11
+!URxvt.font: xft:Terminus:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=10
+!URxvt.boldFont: xft:Terminus:pixelsize=14, xft: WenQuanYi Bitmap Song:pixelsize=10
 
-URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=11
-URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=11
+URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=10
+URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=10
 
 !URxvt.font: xft:Source Code Pro Medium:size=10,xft:Kochi Gothic:size=12
 
 ! useable fonts
 ! Noto Sans CJK JP
+
+!Xft.autohint: 0
+!Xft.lcdfilter:  lcddefault
+!Xft.hintstyle:  hintfull
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
+
 
 !Xft.dpi:        96:unscaled
 !Xft.antialias:  true

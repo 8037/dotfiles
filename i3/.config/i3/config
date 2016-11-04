@@ -239,6 +239,7 @@ bindsym Print exec --no-startup-id scrot -e 'mv $f ~/pics/screenshot'
 bar {
 	position top
 	font pango: WenQuanYi Bitmap Song 11px
+	#font pango: WenQuanYi Bitmap Song 11px
 	#font pango: Source Code Pro Medium, Kochi Gothic, Font Awesome 8
 	      	
 	#disable tray output
