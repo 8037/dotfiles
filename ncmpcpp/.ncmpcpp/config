@@ -27,7 +27,7 @@ centered_cursor = "yes"
 cyclic_scrolling = "no"
 #playlist_separate_albums = "yes"
 mouse_list_scroll_whole_page = "no"
-song_list_format = "$8%a $5%t $R$5%l"
+song_list_format = "$8%a $2%t $R$2%l"
 song_library_format = "{%n > }{%t}|{%f}"
 progressbar_look = "─╼─"
 
