@@ -177,6 +177,9 @@ mode "resize" {
 
 bindsym Mod4+r mode "resize"
 
+# force these programs to always open in floating window
+for_window [class="mpv|feh"] floating enable
+
 #colors
 
 set $foreground 	#d2d0d4
