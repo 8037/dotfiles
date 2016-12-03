@@ -179,6 +179,7 @@ bindsym Mod4+r mode "resize"
 
 # force these programs to always open in floating window
 for_window [class="mpv|feh"] floating enable
+for_window [window_role="pop-up"] floating enable
 
 #colors
 
@@ -241,7 +242,7 @@ bindsym Print exec --no-startup-id scrot -e 'mv $f ~/pics/screenshot'
 # finds out, if available)
 bar {
 	position top
-	font pango: WenQuanYi Bitmap Song 11px
+	font pango: Dina, tewi, WenQuanYi Bitmap Song 11px
 	#font pango: WenQuanYi Bitmap Song 11px
 	#font pango: Source Code Pro Medium, Kochi Gothic, Font Awesome 8
 	      	
