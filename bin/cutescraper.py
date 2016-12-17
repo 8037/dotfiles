@@ -7,6 +7,11 @@ import shutil
 import multiprocessing
 import os.path
 
+
+if len(sys.argv) < 2 or not sys.argv[1].startswith("http"):
+    print("    Usage: cutescraper.py URL")
+    exit()
+
 end = sys.argv[1]
 
 html = requests.get(end)
