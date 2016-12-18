@@ -23,6 +23,7 @@ soup = BeautifulSoup(html.text, "html.parser")
 links = []
 
 def download_stuff(url):
+    """"""
     filename = url.rsplit('/',1)[1]
     # check if file already exists
     if not (os.path.isfile(filename)):
@@ -37,6 +38,8 @@ for link in (soup.findAll('a', 'fileThumb')):#(soup.findAll('a', {"target" : "_b
     url = link.get('href')
     url = 'https:' + url
     links.append(url)
+
+print("Found %s files!" % len(links))
 
 pool=multiprocessing.Pool(processes=5)
 output = pool.map(download_stuff,links)
