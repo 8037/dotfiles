@@ -5,11 +5,14 @@
 ! fonts
 
 
-!URxvt.font: xft:Terminus:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=10
-!URxvt.boldFont: xft:Terminus:pixelsize=14, xft: WenQuanYi Bitmap Song:pixelsize=10
+!URxvt.font: xft:Terminus:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
+!URxvt.boldFont: xft:Terminus:pixelsize=14, xft: WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pizelsize=10
 
-URxvt.font: xft:Termsyn:pixelsize=13, xft:WenQuanYi Bitmap Song:pixelsize=10
-URxvt.boldFont: xft:Termsyn:pixelsize=13, xft: WenQuanYi Bitmap Song:pixelsize=10
+!URxvt.font : xft:tewi:pixelsize=10, xft:jackeyfont:pixelsize=10
+!
+URxvt.font: xft:Dina:pixelsize=11, xft:WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
+!URxvt.font: xft:Termsyn:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
+URxvt.boldFont: xft:Dina:pixelsize=11, xft: WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
 
 !URxvt.font: xft:Source Code Pro Medium:size=10,xft:Kochi Gothic:size=12
 
@@ -65,15 +68,15 @@ URxvt.matcher.button: 1
 
 ! blue
 *.color4:       #828084
-*.color12:      #ff6da3  
+*.color12:      #f2b0c4  
 
 ! magenta
 *.color5:       #929094
-*.color13:      #c72d66    
+*.color13:      #ff6da3    
 
 ! cyan
 *.color6:       #a2a0a4
-*.color14:      #85123c  
+*.color14:      #c72d66  
 
 ! white
 *.color7:       #bfbdc2
@@ -84,6 +87,7 @@ URxvt.matcher.button: 1
 ! #cc6666 #ff6da3 #bb425f
 ! #f6d793 #f6c373 #d69d62
 ! #8b6981 #6f4e69 #5f3357
+! #85123c
 
 ! ------------------
 ! rofi configuration

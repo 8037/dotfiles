@@ -22,36 +22,14 @@ upload_rate = 0
 directory = ~/dls/torrent
 session = ~/.rtorrent.session
 
+port_range = 49164-49164
+encryption = allow_incoming,try_outgoing,enable_retry
+dht = auto
+dht_port = 6881
+peer_exchange = yes
+
 schedule = watch_directory,5,5,load_start=/home/tomoe/watch/*.torrent
 schedule = untied_directory,5,5,stop_untied=
 schedule = tied_directory,5,5,start_tied=
 schedule = low_diskspace,5,60,close_low_diskspace=100M
 
-# port configuration
-
-port_range = 49164-49164
-
-# additional settings
-
-encryption = allow_incoming,enable_retry
-
-dht = auto
-dht_port = 6881
-peer_exchange = yes
-
-# cheat sheet
-
-# 	Ctrl-q 		Quit application
-#	Ctrl-s 		Start download. Runs hash first unless already done.
-#	Ctrl-d 		Stop an active download or remove a stopped download
-#	Ctrl-k	 	Stop and close the files of an active download.
-#	Ctrl-r	 	Initiate hash check of torrent. Starts downloading if file is not available.
-#	Ctrl-o	 	Specify the download directory for a added, but not started torrent.
-#	Left 		Returns to the previous screen
-#	Right	 	Goes to the next screen
-#	Backspace 	Adds and starts the specified *.torrent
-#	Return	 	Adds and doesn't start the specified *.torrent
-#	a|s|d 		Increase global upload throttle about 1|5|50 KB/s
-#	A|S|D 		Increase global download throttle about 1|5|50 KB/s
-#	z|x|c 		Decrease global upload throttle about 1|5|50 KB/s
-#	Z|X|C 		Decrease global download throttle about 1|5|50 KB/s 
