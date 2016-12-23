@@ -181,6 +181,13 @@ bindsym Mod4+r mode "resize"
 for_window [class="mpv|feh"] floating enable
 for_window [window_role="pop-up"] floating enable
 
+# multimedia keys
+bindsym XF86AudioPlay exec "mpc toggle"
+bindsym XF86AudioStop exec "mpc stop"
+bindsym XF86AudioNext exec "mpc next"
+bindsym XF86AudioPrev exec "mpc prev"
+
+
 #colors
 
 set $foreground 	#d2d0d4
