@@ -10,9 +10,9 @@
 
 !URxvt.font : xft:tewi:pixelsize=10, xft:jackeyfont:pixelsize=10
 !
-URxvt.font: xft:Dina:pixelsize=11, xft:WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
+URxvt.font: xft:Dina:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
 !URxvt.font: xft:Termsyn:pixelsize=14, xft:WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
-URxvt.boldFont: xft:Dina:pixelsize=11, xft: WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
+URxvt.boldFont: xft:Dina:pixelsize=14, xft: WenQuanYi Bitmap Song:pixelsize=10, xft:tewi:pixelsize=10
 
 !URxvt.font: xft:Source Code Pro Medium:size=10,xft:Kochi Gothic:size=12
 
