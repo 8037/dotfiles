@@ -14,6 +14,7 @@ export HISTCONTROL=ignoreboth
 
 # alias
 alias ls='ls --color=auto --group-directories-first'
+alias mkwebm='ffmpeg -i your_video.mkv -ss 00:00:10.000 -to 00:00:20.000 -c:v libvpx -crf 4 -b:v 1500K -vf scale=640:-1 -an output.webm'
 
 #funcions
 mkcd (){
@@ -26,7 +27,6 @@ rec (){
 
 # binds
 bind '"\e[Z":menu-complete' # shift + tab = cycle through files/directories
-
 
 # prompt and some colors
 white="\[$(tput setaf 15)\]"
